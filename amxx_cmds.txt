@@ -1,0 +1,165 @@
+amxx cmds
+77.220.182.181:27015
+[  1] +voiceteam                                client   all_inclusive.a 
+ [  2] +voicevip                                 client   all_inclusive.a 
+ [  3] -voiceteam                                client   all_inclusive.a 
+ [  4] -voicevip                                 client   all_inclusive.a 
+ [  5] ac_add_alias                              server   alias_detector. 
+ [  6] ac_add_cmd                                server   alias_detector. 
+ [  7] ac_check                                  server   alias_detector. 
+ [  8] ac_new_cmd                                server   alias_detector. 
+ [  9] ac_set_alias_punish                       server   alias_detector. 
+ [ 10] ac_set_alias_reason                       server   alias_detector. 
+ [ 11] ac_set_alias_time                         server   alias_detector. 
+ [ 12] ac_set_cvar_punish                        server   alias_detector. 
+ [ 13] ad_cvar_add                               server   alias_detector. 
+ [ 14] ad_cvar_add_warn                          server   alias_detector. 
+ [ 15] ad_menu                  d                client   aim_detector.am 
+ [ 16] ad_push_mirror                            server   aim_detector.am 
+ [ 17] add_map                                   console  all_inclusive.a 
+ [ 18] add_points                                console  all_inclusive.a 
+ [ 19] ai_reload_cvars                           server   all_inclusive.a 
+ [ 20] ai_reload_ini                             server   all_inclusive.a 
+ [ 21] ai_reload_maps                            server   all_inclusive.a 
+ [ 22] ai_version                                console  all_inclusive.a 
+ [ 23] alias_menu               d                client   alias_detector. 
+ [ 24] amx_addadmin             l                console  admin.amxx      
+ [ 25] amx_addban               d                console  admincmd_fixed. 
+ [ 26] amx_ban                  d                console  fresh_bans_136. 
+ [ 27] amx_ban                  d                console  admincmd_fixed. 
+ [ 28] amx_bandisconnectedmenu  d                client   fresh_bans_136. 
+ [ 29] amx_banip                d                console  fresh_bans_136. 
+ [ 30] amx_banip                d                console  admincmd_fixed. 
+ [ 31] amx_banmenu              d                client   fresh_bans_136. 
+ [ 32] amx_cancelvote           j                console  adminvote.amxx  
+ [ 33] amx_cfg                  h                console  admincmd_fixed. 
+ [ 34] amx_chat                 i                console  adminchat.amxx  
+ [ 35] amx_csay                 i                console  adminchat.amxx  
+ [ 36] amx_cvar                 g                console  admincmd_fixed. 
+ [ 37] amx_gag                                   console  all_inclusive.a 
+ [ 38] amx_gagmenu                               client   all_inclusive.a 
+ [ 39] amx_kick                 c                console  admincmd_fixed. 
+ [ 40] amx_kickmenu                              client   all_inclusive.a 
+ [ 41] amx_last                 d                console  admincmd_fixed. 
+ [ 42] amx_leave                c                console  admincmd_fixed. 
+ [ 43] amx_map                  f                console  admincmd_fixed. 
+ [ 44] amx_mapmenu              f                client   mapsmenu.amxx   
+ [ 45] amx_modules              y                console  admincmd_fixed. 
+ [ 46] amx_nick                 e                console  admincmd_fixed. 
+ [ 47] amx_pause                g                console  admincmd_fixed. 
+ [ 48] amx_plugins              y                console  admincmd_fixed. 
+ [ 49] amx_psay                 i                console  adminchat.amxx  
+ [ 50] amx_rcon                 l                client   admincmd_fixed. 
+ [ 51] amx_reloadadmins         h                console  admin.amxx      
+ [ 52] amx_say                  i                console  adminchat.amxx  
+ [ 53] amx_showrcon             l                client   admincmd_fixed. 
+ [ 54] amx_slap                 e                console  admincmd_fixed. 
+ [ 55] amx_slay                 e                console  admincmd_fixed. 
+ [ 56] amx_statscfg             h                console  statscfg.amxx   
+ [ 57] amx_statscfgmenu         h                client   statscfg.amxx   
+ [ 58] amx_statsx_mode          h                server   statsx.amxx     
+ [ 59] amx_tsay                 i                console  adminchat.amxx  
+ [ 60] amx_unban                d                console  fresh_bans_136. 
+ [ 61] amx_unban                d                console  admincmd_fixed. 
+ [ 62] amx_ungag                                 console  all_inclusive.a 
+ [ 63] amx_vote                 j                console  adminvote.amxx  
+ [ 64] amx_voteban              j                console  adminvote.amxx  
+ [ 65] amx_votekick             j                console  adminvote.amxx  
+ [ 66] amx_votemap              j                console  adminvote.amxx  
+ [ 67] amx_votemapmenu          j                client   mapsmenu.amxx   
+ [ 68] amx_who                  y                console  admincmd_fixed. 
+ [ 69] amxauthBPTJ                               client   admin.amxx      
+ [ 70] amxmodmenu                                client   all_inclusive.a 
+ [ 71] build_dispenser                           client   all_inclusive.a 
+ [ 72] build_lasermine                           client   all_inclusive.a 
+ [ 73] build_sentrygun                           client   all_inclusive.a 
+ [ 74] cfs_add_color                             server   all_inclusive.a 
+ [ 75] chooseteam                                client   auto_team_balan 
+ [ 76] chooseteam                                client   all_inclusive.a 
+ [ 77] custom_gagreason                          client   all_inclusive.a 
+ [ 78] custom_kickreason                         client   all_inclusive.a 
+ [ 79] dopban_add_dyn_ident                      server   dop_ban.amxx    
+ [ 80] dopban_diffdb                             server   dop_ban.amxx    
+ [ 81] dopban_ident_prob_overr                   server   dop_ban.amxx    
+ [ 82] dopban_push_mirror                        server   dop_ban.amxx    
+ [ 83] dopban_set_punish                         server   dop_ban.amxx    
+ [ 84] drop                                      client   all_inclusive.a 
+ [ 85] e61f1                                     console  dop_ban.amxx    
+ [ 86] fadecolor                                 client   all_inclusive.a 
+ [ 87] fb_add_reason                             server   fresh_bans_136. 
+ [ 88] fb_add_replace_admin                      server   fresh_bans_136. 
+ [ 89] fb_add_time                               server   fresh_bans_136. 
+ [ 90] fb_ban                   d                console  fresh_bans_136. 
+ [ 91] fb_bb                    d                client   fresh_bans_136. 
+ [ 92] fb_customreason          d                client   fresh_bans_136. 
+ [ 93] fb_customsubnetreason    l                client   fresh_bans_136. 
+ [ 94] fb_flushcache            d                console  fresh_bans_136. 
+ [ 95] fb_menu                  d                client   fresh_bans_136. 
+ [ 96] fb_offban                d                client   fresh_bans_136. 
+ [ 97] fb_sayban                d                client   fresh_bans_136. 
+ [ 98] fb_subnet_ban            d                console  fresh_bans_136. 
+ [ 99] fb_subnet_ip_start       l                client   fresh_bans_136. 
+ [100] fb_unban                 d                console  fresh_bans_136. 
+ [101] get_plugin_info                           console  auto_team_balan 
+ [102] get_plugin_info                           console  all_inclusive.a 
+ [103] gm_add_template                           server   all_inclusive.a 
+ [104] gm_add_time                               server   all_inclusive.a 
+ [105] godmode                                   client   all_inclusive.a 
+ [106] health                                    client   all_inclusive.a 
+ [107] ignore_team                               client   all_inclusive.a 
+ [108] joinclass                                 client   all_inclusive.a 
+ [109] money                                     client   all_inclusive.a 
+ [110] nightvision                               client   all_inclusive.a 
+ [111] nightvision                               client   all_inclusive.a 
+ [112] nkm_add_reason                            server   all_inclusive.a 
+ [113] ogl32_push_mirror                         server   opengl32.amxx   
+ [114] pauseAck                                  client   admincmd_fixed. 
+ [115] radio1                                    client   all_inclusive.a 
+ [116] radio2                                    client   all_inclusive.a 
+ [117] radio3                                    client   all_inclusive.a 
+ [118] remove_map                                console  all_inclusive.a 
+ [119] say                      d                client   fresh_bans_136. 
+ [120] say                      i                client   adminchat.amxx  
+ [121] say                                       client   all_inclusive.a 
+ [122] say /aim                 d                client   aim_detector.am 
+ [123] say /alias               d                client   alias_detector. 
+ [124] say /fadecolor                            client   all_inclusive.a 
+ [125] say /hp                                   client   statsx.amxx     
+ [126] say /lm                                   client   all_inclusive.a 
+ [127] say /me                                   client   statsx.amxx     
+ [128] say /rank                                 client   statsx.amxx     
+ [129] say /rankstats                            client   statsx.amxx     
+ [130] say /report                               client   statsx.amxx     
+ [131] say /score                                client   statsx.amxx     
+ [132] say /stats                                client   statsx.amxx     
+ [133] say /statsme                              client   statsx.amxx     
+ [134] say /switch                               client   statsx.amxx     
+ [135] say /top15                                client   statsx.amxx     
+ [136] say_team                                  client   adminchat.amxx  
+ [137] say_team                                  client   all_inclusive.a 
+ [138] say_team /fadecolor                       client   all_inclusive.a 
+ [139] say_team /hp                              client   statsx.amxx     
+ [140] say_team /lm                              client   all_inclusive.a 
+ [141] say_team /me                              client   statsx.amxx     
+ [142] say_team /rank                            client   statsx.amxx     
+ [143] say_team /rankstats                       client   statsx.amxx     
+ [144] say_team /report                          client   statsx.amxx     
+ [145] say_team /score                           client   statsx.amxx     
+ [146] say_team /stats                           client   statsx.amxx     
+ [147] say_team /statsme                         client   statsx.amxx     
+ [148] say_team /switch                          client   statsx.amxx     
+ [149] say_team /top15                           client   statsx.amxx     
+ [150] sentry_upgrade                            client   all_inclusive.a 
+ [151] server_stats                              console  all_inclusive.a 
+ [152] set_points                                console  all_inclusive.a 
+ [153] shop_addon_menu                           client   all_inclusive.a 
+ [154] shop_damage_menu                          client   all_inclusive.a 
+ [155] shop_grav_menu                            client   all_inclusive.a 
+ [156] shop_health_menu                          client   all_inclusive.a 
+ [157] shop_invis_menu                           client   all_inclusive.a 
+ [158] shop_menu                                 client   all_inclusive.a 
+ [159] shop_speed_menu                           client   all_inclusive.a 
+ [160] shop_weapon_menu                          client   all_inclusive.a 
+ [161] spawn_editor                              console  all_inclusive.a 
+ [163] tb_reload_cvars                           server   auto_team_balan 
+ [164] timeleft                                  server   all_in
