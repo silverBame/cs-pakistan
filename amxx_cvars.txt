@@ -1,0 +1,454 @@
+Registered cvars:
+       name                     value                    plugin          
+ [  1] debug_level              0                        auto_team_balan 
+ [  2] tb_balance_by_playersnu  1                        auto_team_balan 
+ [  3] tb_balance_by_skill      0                        auto_team_balan 
+ [  4] tb_no_rounds             1                        auto_team_balan 
+ [  5] tb_forced_respawn_delay  0.0                      auto_team_balan 
+ [  6] tb_immunity_flags        a                        auto_team_balan 
+ [  7] tb_select_team_menu_typ  1                        auto_team_balan 
+ [  8] tb_max_players_num_diff  1                        auto_team_balan 
+ [  9] tb_skill_score_diff      5                        auto_team_balan 
+ [ 10] tb_skill_skip_times      5                        auto_team_balan 
+ [ 11] tb_skill_min_players     10                       auto_team_balan 
+ [ 12] tb_immunity_skip_times   12                       auto_team_balan 
+ [ 13] tb_changeteam_block_tim  0                        auto_team_balan 
+ [ 14] ai_update_configs        0                        all_inclusive.a 
+ [ 15] ai_main_admin_flags      m                        all_inclusive.a 
+ [ 16] ai_admin_high_flags      n                        all_inclusive.a 
+ [ 17] ai_admin_flags           d                        all_inclusive.a 
+ [ 18] ai_vip_flags             t                        all_inclusive.a 
+ [ 19] ai_vip_high_flags        p                        all_inclusive.a 
+ [ 20] ai_immunity_flags        a                        all_inclusive.a 
+ [ 21] ai_data_storage_time     2592000                  all_inclusive.a 
+ [ 22] ai_max_money             1000000                  all_inclusive.a 
+ [ 23] ai_max_hp                1000                     all_inclusive.a 
+ [ 24] ai_max_damage_percent    500                      all_inclusive.a 
+ [ 25] ai_kill_player_award     400                      all_inclusive.a 
+ [ 26] ai_knife_kill_award_per  -1                       all_inclusive.a 
+ [ 27] ai_block_drop_weapon     1                        all_inclusive.a 
+ [ 28] ai_save_weapon_state     1                        all_inclusive.a 
+ [ 29] ai_spectate_limit        120                      all_inclusive.a 
+ [ 30] ai_vip_spectate_limit    300                      all_inclusive.a 
+ [ 31] ai_admin_spectate_limit  900                      all_inclusive.a 
+ [ 32] afk_immun_idle_time      1200                     all_inclusive.a 
+ [ 33] afk_idle_time            120                      all_inclusive.a 
+ [ 34] afk_check_spectators_li  32                       all_inclusive.a 
+ [ 35] ad_chat_enabled          1                        all_inclusive.a 
+ [ 36] ad_chat_delay_min        10                       all_inclusive.a 
+ [ 37] ad_chat_delay_max        15                       all_inclusive.a 
+ [ 38] ad_dhud_enabled          1                        all_inclusive.a 
+ [ 39] ad_dhud_delay_min        15                       all_inclusive.a 
+ [ 40] ad_dhud_delay_max        15                       all_inclusive.a 
+ [ 41] ar_chat_enabled          1                        all_inclusive.a 
+ [ 42] info_admins_online_hud   0                        all_inclusive.a 
+ [ 43] nnc_enabled              1                        all_inclusive.a 
+ [ 44] nnc_replace_invalid_nam  1                        all_inclusive.a 
+ [ 45] nnc_clean_symbols        1                        all_inclusive.a 
+ [ 46] nnc_name_flood_time      10                       all_inclusive.a 
+ [ 47] nnc_name_flood_num       10                       all_inclusive.a 
+ [ 48] nnc_flood_punishment_cm  kick #%userid% %reason%  all_inclusive.a 
+ [ 49] ban_cmd                  amx_ban %time% %userid%  all_inclusive.a 
+ [ 50] block_hud_text_args      1                        all_inclusive.a 
+ [ 51] hide_cvars_enabled       1                        all_inclusive.a 
+ [ 52] ls_min_voice_access_poi  0                        all_inclusive.a 
+ [ 53] ls_min_chat_access_poin  0                        all_inclusive.a 
+ [ 54] ls_damage_by_level_perc  2                        all_inclusive.a 
+ [ 55] ls_hp_by_level_amount    5                        all_inclusive.a 
+ [ 56] ls_money_by_level_amoun  5                        all_inclusive.a 
+ [ 57] ls_headshot_bonus        1                        all_inclusive.a 
+ [ 58] ls_min_save_points       25                       all_inclusive.a 
+ [ 59] qc_max_ping_limit        160                      all_inclusive.a 
+ [ 60] qc_max_loss_limit        20                       all_inclusive.a 
+ [ 61] qc_max_ping_punishment   1                        all_inclusive.a 
+ [ 62] qc_max_loss_punishment   1                        all_inclusive.a 
+ [ 63] qc_checks_num            10                       all_inclusive.a 
+ [ 64] qc_checks_num_reset_del  300                      all_inclusive.a 
+ [ 65] qc_warnings_num          2                        all_inclusive.a 
+ [ 66] qc_reconnect_delay       15                       all_inclusive.a 
+ [ 67] qc_permitted_reconnects  2                        all_inclusive.a 
+ [ 68] qc_permitted_ip_clones_  2                        all_inclusive.a 
+ [ 69] sentry_model_type        2                        all_inclusive.a 
+ [ 70] sentry_create_cost       3.0, 4.0, 5.0, 6.0, 7.0  all_inclusive.a 
+ [ 71] sentry_create_time       0.1                      all_inclusive.a 
+ [ 72] sentry_min_distance      0                        all_inclusive.a 
+ [ 73] sentry_upgrade_flags     _, _, _                  all_inclusive.a 
+ [ 74] sentry_upgrade_cost      0.5, 1.0, 3.0            all_inclusive.a 
+ [ 75] sentry_upgrade_mode      0                        all_inclusive.a 
+ [ 76] sentry_upgrade_delay     15, 20, 25               all_inclusive.a 
+ [ 77] sentry_confirm_upgrade   0, 0, 1                  all_inclusive.a 
+ [ 78] sentry_destroy_cost      -2.0, -3.0, -4.0, -5.0   all_inclusive.a 
+ [ 79] sentry_destroy_cost_adj  1                        all_inclusive.a 
+ [ 80] sentry_hit_dmg           20.0                     all_inclusive.a 
+ [ 81] sentry_damage_award_rat  0.5                      all_inclusive.a 
+ [ 82] sentry_frag_award        0.3, 0.15, 0.15, 0.15    all_inclusive.a 
+ [ 83] sentry_fire_rate         10, 10, 15, 15           all_inclusive.a 
+ [ 84] sentry_accuracy          0.3, 0.2, 0.1, 0.05      all_inclusive.a 
+ [ 85] sentry_base_health       1.5, 3.0, 6.0, 12.0      all_inclusive.a 
+ [ 86] sentry_health            3.0, 6.0, 12.0, 24.0     all_inclusive.a 
+ [ 87] sentry_frag_health_bonu  100                      all_inclusive.a 
+ [ 88] sentry_burn_health_thre  1000                     all_inclusive.a 
+ [ 89] sentry_base_burn_health  500                      all_inclusive.a 
+ [ 90] sentry_dmg_from_burning  25.0                     all_inclusive.a 
+ [ 91] sentry_repair_price      50                       all_inclusive.a 
+ [ 92] sentry_repair_hp         100.0                    all_inclusive.a 
+ [ 93] sentry_repair_delay      0.25                     all_inclusive.a 
+ [ 94] sentry_repair_progress_  1                        all_inclusive.a 
+ [ 95] sentry_repair_sound_del  5.0                      all_inclusive.a 
+ [ 96] sentry_repair_sound      all_inclusive/sentries/  all_inclusive.a 
+ [ 97] sentry_info_hud_msg_pos  -1.0 0.35                all_inclusive.a 
+ [ 98] sentry_t_info_hud_msg_c  0 255 0                  all_inclusive.a 
+ [ 99] sentry_ct_info_hud_msg_  0 255 0                  all_inclusive.a 
+ [100] sentry_idle_sound        all_inclusive/sentries/  all_inclusive.a 
+ [101] sentry_target_spotted_s  all_inclusive/sentries/  all_inclusive.a 
+ [102] sentry_base_create_soun  all_inclusive/sentries/  all_inclusive.a 
+ [103] sentry_create_sound      all_inclusive/sentries/  all_inclusive.a 
+ [104] sentry_upgrade_sound     all_inclusive/sentries/  all_inclusive.a 
+ [105] sentry_gun_shot_sound    weapons/m249-1.wav       all_inclusive.a 
+ [106] sentry_sparking_sound    buttons/spark1.wav       all_inclusive.a 
+ [107] sentry_react_on_shield   1                        all_inclusive.a 
+ [108] sentry_semiclip_mode     0                        all_inclusive.a 
+ [109] sentry_missile_fire_rat  4                        all_inclusive.a 
+ [110] sentry_missile_hit_dmg   50                       all_inclusive.a 
+ [111] sentry_missile_speed     2000                     all_inclusive.a 
+ [112] sentry_missile_explode_  250                      all_inclusive.a 
+ [113] sentry_missile_compartm  4                        all_inclusive.a 
+ [114] sentry_missile_model     models/all_inclusive/se  all_inclusive.a 
+ [115] sentry_missile_launch_s  all_inclusive/sentries/  all_inclusive.a 
+ [116] sentry_missile_fly_soun  all_inclusive/sentries/  all_inclusive.a 
+ [117] sentry_missile_explode_  sprites/all_inclusive/s  all_inclusive.a 
+ [118] sentry_missile_trail_sp  sprites/animglow01.spr   all_inclusive.a 
+ [119] lm_create_cost           100                      all_inclusive.a 
+ [120] lm_frag_award            300                      all_inclusive.a 
+ [121] lm_damage_award_ratio    0.3                      all_inclusive.a 
+ [122] lm_health                700                      all_inclusive.a 
+ [123] lm_laser_beam_dmg_playe  1500                     all_inclusive.a 
+ [124] lm_laser_beam_dmg_entit  250                      all_inclusive.a 
+ [125] lm_laser_beam_dmg_durat  15                       all_inclusive.a 
+ [126] lm_detection_radius      100                      all_inclusive.a 
+ [127] lm_explode_dmg           300                      all_inclusive.a 
+ [128] lm_info_hud_msg_pos      -1.0 0.35                all_inclusive.a 
+ [129] lm_t_info_hud_msg_color  0 255 0                  all_inclusive.a 
+ [130] lm_ct_info_hud_msg_colo  0 255 0                  all_inclusive.a 
+ [131] lm_model                 models/all_inclusive/la  all_inclusive.a 
+ [132] lm_deploy_sound          weapons/mine_deploy.wav  all_inclusive.a 
+ [133] lm_charge_sound          weapons/mine_charge.wav  all_inclusive.a 
+ [134] lm_activate_sound        weapons/mine_activate.w  all_inclusive.a 
+ [135] lm_hit_sound             buttons/spark1.wav       all_inclusive.a 
+ [136] lm_repair_sound          all_incusive/sentries/b  all_inclusive.a 
+ [137] lm_react_on_shield       1                        all_inclusive.a 
+ [138] lm_semiclip_mode         1                        all_inclusive.a 
+ [139] disp_create_cost         5.0, 8.0, 12.0           all_inclusive.a 
+ [140] disp_upgrade_cost        2.0                      all_inclusive.a 
+ [141] disp_confirm_upgrade     0                        all_inclusive.a 
+ [142] disp_destroy_cost        -4.0, -5.0               all_inclusive.a 
+ [143] disp_destroy_cost_adjus  1                        all_inclusive.a 
+ [144] disp_damage_award_ratio  0.5                      all_inclusive.a 
+ [145] disp_health              5, 10                    all_inclusive.a 
+ [146] disp_distribute_own_hea  1                        all_inclusive.a 
+ [147] disp_take_enemy_health   0                        all_inclusive.a 
+ [148] disp_dmg_from_burning    25.0                     all_inclusive.a 
+ [149] disp_working_radius      0.25, 0.5                all_inclusive.a 
+ [150] disp_max_player_hp       0.15, 0.25               all_inclusive.a 
+ [151] disp_max_player_ap       0.15, 0.25               all_inclusive.a 
+ [152] disp_hp_inc_step         1.0, 2.0                 all_inclusive.a 
+ [153] disp_ap_inc_step         1.0, 2.0                 all_inclusive.a 
+ [154] disp_inc_step_delay      0.1                      all_inclusive.a 
+ [155] disp_repair_price        50                       all_inclusive.a 
+ [156] disp_repair_hp           100.0                    all_inclusive.a 
+ [157] disp_repair_delay        0.25                     all_inclusive.a 
+ [158] disp_repair_progress_ba  1                        all_inclusive.a 
+ [159] disp_repair_sound_delay  5.0                      all_inclusive.a 
+ [160] disp_repair_sound        all_inclusive/sentries/  all_inclusive.a 
+ [161] disp_semiclip_mode       0                        all_inclusive.a 
+ [162] disp_info_hud_msg_pos    -1.0 0.35                all_inclusive.a 
+ [163] disp_t_info_hud_msg_col  0 255 0                  all_inclusive.a 
+ [164] disp_ct_info_hud_msg_co  0 255 0                  all_inclusive.a 
+ [165] disp_model_lvl_1         models/all_inclusive/di  all_inclusive.a 
+ [166] disp_model_lvl_2         models/all_inclusive/di  all_inclusive.a 
+ [167] disp_create_sound        all_inclusive/dispenser  all_inclusive.a 
+ [168] disp_sparking_sound      buttons/spark1.wav       all_inclusive.a 
+ [169] mm_timelimit             25                       all_inclusive.a 
+ [170] mm_restore_after_crash   1                        all_inclusive.a 
+ [171] mm_timelimit_ext         15                       all_inclusive.a 
+ [172] mm_timelimit_max         40                       all_inclusive.a 
+ [173] mm_small_playerslimit    20                       all_inclusive.a 
+ [174] mm_changemap_menu_maps_  5                        all_inclusive.a 
+ [175] mm_freeze_at_vote        1                        all_inclusive.a 
+ [176] mm_fadetoblack_at_vote   0                        all_inclusive.a 
+ [177] mm_block_communications  0                        all_inclusive.a 
+ [178] mm_restart_hour          5                        all_inclusive.a 
+ [179] mm_timelimit_voice_noti  1                        all_inclusive.a 
+ [180] mm_delay_mapchange       10                       all_inclusive.a 
+ [181] rtv_start_time           60                       all_inclusive.a 
+ [182] rtv_vote_ratio           40                       all_inclusive.a 
+ [183] rtv_blocked_maps_percen  75                       all_inclusive.a 
+ [184] multi_jumps_num          2                        all_inclusive.a 
+ [185] sm_spawn_wait_time       0.75                     all_inclusive.a 
+ [186] sm_reset_visited_spawn_  75                       all_inclusive.a 
+ [187] sm_spawn_enemy_distance  175.0                    all_inclusive.a 
+ [188] sm_spawn_model           models/player/vip/vip.m  all_inclusive.a 
+ [189] sm_spawn_capture_bonus   100                      all_inclusive.a 
+ [190] sm_give_capture_bonus_d  15                       all_inclusive.a 
+ [191] sm_captured_spawns_max_  80                       all_inclusive.a 
+ [192] sm_spawn_capture_time    0                        all_inclusive.a 
+ [193] sm_captured_map_end_del  60                       all_inclusive.a 
+ [194] chat_flood_time          1.8                      all_inclusive.a 
+ [195] chat_translit_default_s  0                        all_inclusive.a 
+ [196] chat_sounds_default_sta  1                        all_inclusive.a 
+ [197] chat_private_enabled     1                        all_inclusive.a 
+ [198] chat_prefix_enabled      1                        all_inclusive.a 
+ [199] chat_editable_prefix     1                        all_inclusive.a 
+ [200] chat_sound_send          buttons/lightswitch2.wa  all_inclusive.a 
+ [201] chat_sound_receive       buttons/blip1.wav        all_inclusive.a 
+ [202] demo_rec_delay           10                       all_inclusive.a 
+ [203] demo_rec_name            padalinopodnimalisb      all_inclusive.a 
+ [204] damager_default_state    1                        all_inclusive.a 
+ [205] damager_default_type     1                        all_inclusive.a 
+ [206] damager_show_received_d  0                        all_inclusive.a 
+ [207] damager_only_visible     0                        all_inclusive.a 
+ [208] damager_only_alive       0                        all_inclusive.a 
+ [209] damager_attacker_color_  0 100 200                all_inclusive.a 
+ [210] damager_attacker_color_  255 165 0                all_inclusive.a 
+ [211] damager_victim_color_ty  255 0 0                  all_inclusive.a 
+ [212] damager_victim_color_ty  255 0 0                  all_inclusive.a 
+ [213] damager_victim_color_ty  255 0 0                  all_inclusive.a 
+ [214] damager_access_flags                              all_inclusive.a 
+ [215] gm_can_speak_after_deat  5.0                      all_inclusive.a 
+ [216] gm_alive_listen_dead     1                        all_inclusive.a 
+ [217] gm_dead_listen_dead      1                        all_inclusive.a 
+ [218] gm_player_listen_enemy   1                        all_inclusive.a 
+ [219] gm_admin_listen_mode     2                        all_inclusive.a 
+ [220] gm_ignore_listen_cvars   1                        all_inclusive.a 
+ [221] gm_auto_gag_ratio        0.3                      all_inclusive.a 
+ [222] gm_auto_gag_time         30                       all_inclusive.a 
+ [223] gm_log_type              1                        all_inclusive.a 
+ [224] gm_apologize_delay       60                       all_inclusive.a 
+ [225] gm_after_death_hud_msg_  220 160 0                all_inclusive.a 
+ [226] gm_after_death_hud_msg_  -1.0 0.36                all_inclusive.a 
+ [227] gm_after_gag_hud_msg_co  220 50 50                all_inclusive.a 
+ [228] gm_after_gag_hud_msg_po  -1.0 0.36                all_inclusive.a 
+ [229] gm_immunity_flags        a                        all_inclusive.a 
+ [230] gm_access_flags          d                        all_inclusive.a 
+ [231] gm_high_access_flags     l                        all_inclusive.a 
+ [232] gm_vip_flags             t                        all_inclusive.a 
+ [233] gm_remove_only_own_gag   0                        all_inclusive.a 
+ [234] nkm_max_warnings         3                        all_inclusive.a 
+ [235] nkm_log_type             1                        all_inclusive.a 
+ [236] nkm_warning_sound        events/friend_died       all_inclusive.a 
+ [237] nkm_warning_hud_msg_pos  -1.0 0.36                all_inclusive.a 
+ [238] nkm_warning_hud_msg_col  255 75 75                all_inclusive.a 
+ [239] nkm_access_flags         c                        all_inclusive.a 
+ [240] nkm_high_access_flags    l                        all_inclusive.a 
+ [241] nkm_immunity_flags       a                        all_inclusive.a 
+ [242] shop_weapon_menu_items   4, 15, 28, 22, 18, 24,   all_inclusive.a 
+ [243] shop_weapon_menu_price   0.3, 0.25, 0.3, 0.4, 0.  all_inclusive.a 
+ [244] shop_invis_price         5.0, 10.0, 15.0          all_inclusive.a 
+ [245] shop_invis_percent       50, 75, 90               all_inclusive.a 
+ [246] shop_grav_price          3.0, 4.5, 6.0, 8.0       all_inclusive.a 
+ [247] shop_grav_percent        60, 50, 40, 30           all_inclusive.a 
+ [248] shop_grav_money_back_pe  50                       all_inclusive.a 
+ [249] shop_speed_price         5.0, 7.0, 10.0, 15.0     all_inclusive.a 
+ [250] shop_speed_amount        280, 320, 360, 400       all_inclusive.a 
+ [251] shop_speed_money_back_p  50                       all_inclusive.a 
+ [252] shop_damage_price        2.0, 3.5, 5.0, 7.5, 0.0  all_inclusive.a 
+ [253] shop_damage_percent      10, 25, 50, 100, -1      all_inclusive.a 
+ [254] shop_health_price        1.0, 2.0, 3.0, 5.0, 0.0  all_inclusive.a 
+ [255] shop_health_amount       10, 25, 55, 115, -1      all_inclusive.a 
+ [256] shop_addon_price         1.0, 0.5, 0.5, 5.0, 5.0  all_inclusive.a 
+ [257] shop_teleport_grenade_s  items/suitchargeok1.wav  all_inclusive.a 
+ [258] shop_mega_he_explode_so  all_inclusive/explode4.  all_inclusive.a 
+ [259] tm_min_amount            1000                     all_inclusive.a 
+ [260] vm_access_delay          240.0                    all_inclusive.a 
+ [261] vm_item_cost_in_points   2, 1, 1, 1, 1, 1, 1      all_inclusive.a 
+ [262] vm_kill_vip_award        1000                     all_inclusive.a 
+ [263] vm_announce_access_soun  all_inclusive/c4_siren.  all_inclusive.a 
+ [264] vm_invisibility_percent  75                       all_inclusive.a 
+ [265] vm_run_speed             320                      all_inclusive.a 
+ [266] vm_gravity_percent       50                       all_inclusive.a 
+ [267] vm_add_hp                100                      all_inclusive.a 
+ [268] vm_add_damage_percent    50                       all_inclusive.a 
+ [269] vtb_use_delay            60                       all_inclusive.a 
+ [270] vtb_ban_time             120                      all_inclusive.a 
+ [271] vtb_percent_low          33                       all_inclusive.a 
+ [272] vtb_percent_high         51                       all_inclusive.a 
+ [273] vtb_players_limiter      4                        all_inclusive.a 
+ [274] cfs_auto_show_menu       1                        all_inclusive.a 
+ [275] cfs_default_color        1                        all_inclusive.a 
+ [276] cfs_sound                                         all_inclusive.a 
+ [277] cfs_access_flags                                  all_inclusive.a 
+ [278] cwm_prim_menu_items      22, 28, 18, 20, 8, 27,   all_inclusive.a 
+ [279] cwm_sec_menu_items       16, 17, 26, 1, 10, 11    all_inclusive.a 
+ [280] rc_remove_he             1                        all_inclusive.a 
+ [281] rc_remove_smoke          1                        all_inclusive.a 
+ [282] rc_remove_flash          1                        all_inclusive.a 
+ [283] rc_radio_time            1.5                      all_inclusive.a 
+ [284] rc_radio_msgs            60                       all_inclusive.a 
+ [285] rc_new_radio_menus       1                        all_inclusive.a 
+ [286] rc_new_radio_chat_msgs   1                        all_inclusive.a 
+ [287] rc_send_chat_msg         1                        all_inclusive.a 
+ [288] rc_play_sound            1                        all_inclusive.a 
+ [289] rc_show_icon             1                        all_inclusive.a 
+ [290] rc_fire_in_the_hole_adv  1                        all_inclusive.a 
+ [291] quick_menu_mode          0                        all_inclusive.a 
+ [292] atb_changeteam_delay     0                        all_inclusive.a 
+ [293] nm_start_announce_befor  300                      all_inclusive.a 
+ [294] nm_hud_informer_pos      0.02 0.31                all_inclusive.a 
+ [295] nm_hud_informer_color    127 127 127              all_inclusive.a 
+ [296] ultimate_effects         15.07.15                 ultimate_effect 
+ [297] ogl32_sn                 *******HIDEN******45cc2  opengl32.amxx   
+ [298] ogl32_logdays            0                        opengl32.amxx   
+ [299] ogl32_loglevel           1                        opengl32.amxx   
+ [300] ogl32_logtype            1                        opengl32.amxx   
+ [301] ogl32_autoupdate         0                        opengl32.amxx   
+ [302] ogl32_delay              0.1                      opengl32.amxx   
+ [303] ogl32_fake_punishment    kick %userid% fake play  opengl32.amxx   
+ [304] ogl32_clear_console      1                        opengl32.amxx   
+ [305] ac_logdays               120                      alias_detector. 
+ [306] ac_logs                  1                        alias_detector. 
+ [307] ac_check_steams          1                        alias_detector. 
+ [308] ac_recheck_time          10                       alias_detector. 
+ [309] ac_except_slowhack       0                        alias_detector. 
+ [310] ac_check_interval        1.0                      alias_detector. 
+ [311] ac_nocheck               0                        alias_detector. 
+ [312] ac_detect_new            1                        alias_detector. 
+ [313] ad_cvar_max_att          4                        alias_detector. 
+ [314] ad_cvar_max_warns        3                        alias_detector. 
+ [315] ad_cvar_recheck_time     60                       alias_detector. 
+ [316] ad_sn                    0eo36f0l6bs1ec4sm6dm1bb  aim_detector.am 
+ [317] ad_punishment            amx_ban 10080 %userid%   aim_detector.am 
+ [318] ad_punishment2           addip 300.0 %ip%         aim_detector.am 
+ [319] ad_logdays               7                        aim_detector.am 
+ [320] ad_sens                  6                        aim_detector.am 
+ [321] ad_shot_reset            80                       aim_detector.am 
+ [322] ad_time_reset            600                      aim_detector.am 
+ [323] ad_admin_noban           0                        aim_detector.am 
+ [324] ad_loglevel              2                        aim_detector.am 
+ [325] ad_logtype               1                        aim_detector.am 
+ [326] ad_autoupdate            0                        aim_detector.am 
+ [327] ad_delay                 30.0                     aim_detector.am 
+ [328] ad_reason                [AD]AIM                  aim_detector.am 
+ [329] ad_bantime               10080                    aim_detector.am 
+ [330] ad_maxwarns              8                        aim_detector.am 
+ [331] ad_alertwarns            2                        aim_detector.am 
+ [332] ad_spinhack              1                        aim_detector.am 
+ [333] ad_spinhack_warns        50                       aim_detector.am 
+ [334] ad_bantime_spinhack      20000                    aim_detector.am 
+ [335] ad_punishment_spinhack   amx_ban 10080 %userid%   aim_detector.am 
+ [336] ad_reason_spinhack       SpinHack Detected        aim_detector.am 
+ [337] ad_norecoil              0                        aim_detector.am 
+ [338] ad_norec_inform          110                      aim_detector.am 
+ [339] ad_norec_warns           350                      aim_detector.am 
+ [340] ad_bantime_norec         20000                    aim_detector.am 
+ [341] ad_punishment_norec      amx_ban 777600 %userid%  aim_detector.am 
+ [342] ad_reason_norec          NoRecoil Detected        aim_detector.am 
+ [343] ad_except_ucp            0                        aim_detector.am 
+ [344] ad_allow_menu            0                        aim_detector.am 
+ [345] ad_active_mode           0                        aim_detector.am 
+ [346] ad_knifebot              0                        aim_detector.am 
+ [347] ad_sens_kb               0                        aim_detector.am 
+ [348] ad_save_warns            0                        aim_detector.am 
+ [349] fb_sql_host              db.game-servers.ru       fresh_bans_136. 
+ [350] fb_sql_user              db55794n1                fresh_bans_136. 
+ [351] fb_sql_pass              ***hidden***             fresh_bans_136. 
+ [352] fb_sql_db                db55794n1                fresh_bans_136. 
+ [353] fb_use_sql               1                        fresh_bans_136. 
+ [354] fb_sql_table             amx_bans                 fresh_bans_136. 
+ [355] fb_sql_log_table         amx_logs                 fresh_bans_136. 
+ [356] fb_server_ip             77.220.182.181           fresh_bans_136. 
+ [357] fb_server_port           27015                    fresh_bans_136. 
+ [358] fb_server_name           Падали, но по  fresh_bans_136. 
+ [359] fb_ip_ban_time           300                      fresh_bans_136. 
+ [360] fb_showhud               1                        fresh_bans_136. 
+ [361] fb_showchat              1                        fresh_bans_136. 
+ [362] fb_offline_time          50                       fresh_bans_136. 
+ [363] fb_oldmap_players        64                       fresh_bans_136. 
+ [364] fb_bantime_limit         43200                    fresh_bans_136. 
+ [365] fb_bantime_access        d                        fresh_bans_136. 
+ [366] fb_unban_self            d                        fresh_bans_136. 
+ [367] fb_unban_all             l                        fresh_bans_136. 
+ [368] fb_kick_delay            5                        fresh_bans_136. 
+ [369] fb_subnet_recheck        10                       fresh_bans_136. 
+ [370] fb_force_check           0                        fresh_bans_136. 
+ [371] fb_cachetime             5                        fresh_bans_136. 
+ [372] fb_cachetime_kick        5                        fresh_bans_136. 
+ [373] fb_oldkickinfo           1                        fresh_bans_136. 
+ [374] fb_nvault_clear          90                       fresh_bans_136. 
+ [375] fb_logtype               1                        fresh_bans_136. 
+ [376] fb_loglevel              2                        fresh_bans_136. 
+ [377] fb_logdays               7                        fresh_bans_136. 
+ [378] fb_use_russian           0                        fresh_bans_136. 
+ [379] fb_sql_clear             300                      fresh_bans_136. 
+ [380] fb_subnet_clients        0                        fresh_bans_136. 
+ [381] fb_prefix_clients        0                        fresh_bans_136. 
+ [382] fb_subnet_except_ucp     0                        fresh_bans_136. 
+ [383] fb_servers_table         amx_serverinfo           fresh_bans_136. 
+ [384] fb_chatinfo              Игрок [%4%%player%  fresh_bans_136. 
+ [385] fb_hudinfo               %player%%n%%lenght%%n%%  fresh_bans_136. 
+ [386] fb_hudcolor              139 139 0                fresh_bans_136. 
+ [387] fb_hudpos                0.05 0.3                 fresh_bans_136. 
+ [388] fb_cacheonly             1                        fresh_bans_136. 
+ [389] fb_serveronly            1                        fresh_bans_136. 
+ [390] fb_customreason_flag     d                        fresh_bans_136. 
+ [391] fb_customreason_first    0                        fresh_bans_136. 
+ [392] fb_adminrcon_flag        l                        fresh_bans_136. 
+ [393] fb_confirmchat           0                        fresh_bans_136. 
+ [394] fb_locknames             1                        fresh_bans_136. 
+ [395] fb_newmenu               0                        fresh_bans_136. 
+ [396] fb_rec_snet              0                        fresh_bans_136. 
+ [397] fb_rec_snet_time         300                      fresh_bans_136. 
+ [398] fb_rec_snet_count        3                        fresh_bans_136. 
+ [399] fb_rec_snet_bt           60                       fresh_bans_136. 
+ [400] fb_rec_snet_level        1                        fresh_bans_136. 
+ [401] fb_noip_as_allip         0                        fresh_bans_136. 
+ [402] fb_longtime_allservers   0                        fresh_bans_136. 
+ [403] fb_force_bantype_ip      0                        fresh_bans_136. 
+ [404] fb_show_bb               0                        fresh_bans_136. 
+ [405] fb_lock_def_time                                  fresh_bans_136. 
+ [406] fb_no_confirm            d                        fresh_bans_136. 
+ [407] fb_plugin_prefix         4                        fresh_bans_136. 
+ [408] fb_plugin_hprefix        3                        fresh_bans_136. 
+ [409] fb_menu_nick_addons      31                       fresh_bans_136. 
+ [410] fb_acp_admin_uid         0                        fresh_bans_136. 
+ [411] fb_old_replace_time      0                        fresh_bans_136. 
+ [412] fb_old_replace_ip        127.0.1.2                fresh_bans_136. 
+ [413] fb_old_replace_id        STEAM_0:0:0000000000     fresh_bans_136. 
+ [414] fb_kick_all_from_ip      0                        fresh_bans_136. 
+ [415] dopban_sn                **********HIDDEN*******  dop_ban.amxx    
+ [416] dopban_loglevel          1                        dop_ban.amxx    
+ [417] dopban_logtype           1                        dop_ban.amxx    
+ [418] dopban_logdays           7                        dop_ban.amxx    
+ [419] dopban_sign              31rIFqmNoN0tXv1h1FMBr    dop_ban.amxx    
+ [420] dopban_cfgban            1                        dop_ban.amxx    
+ [421] dopban_cfg               liblist                  dop_ban.amxx    
+ [422] dopban_bindban           1                        dop_ban.amxx    
+ [423] dopban_nameban           0                        dop_ban.amxx    
+ [424] dopban_infoban           1                        dop_ban.amxx    
+ [425] dopban_rateban           1                        dop_ban.amxx    
+ [426] dopban_cleaninfo         1                        dop_ban.amxx    
+ [427] dopban_autoupdate        0                        dop_ban.amxx    
+ [428] dopban_clearconsole      1                        dop_ban.amxx    
+ [429] dopban_newban_time       0                        dop_ban.amxx    
+ [430] dopban_minban_time       0                        dop_ban.amxx    
+ [431] dopban_newban_reason     banned with %banid%      dop_ban.amxx    
+ [432] dopban_cmd_delay         10                       dop_ban.amxx    
+ [433] dopban_server_number     3                        dop_ban.amxx    
+ [434] dopban_motd              http://pakistan-cs.ru/m  dop_ban.amxx    
+ [435] dopban_motdtype          1                        dop_ban.amxx    
+ [436] dopban_no_motd_punish                             dop_ban.amxx    
+ [437] dopban_no_motd_off_perc  0.5                      dop_ban.amxx    
+ [438] dopban_no_motd_off_lim   2                        dop_ban.amxx    
+ [439] dopban_repeat_motd       0                        dop_ban.amxx    
+ [440] dopban_adbans            0                        dop_ban.amxx    
+ [441] dopban_sql_user                                   dop_ban.amxx    
+ [442] dopban_sql_pass                                   dop_ban.amxx    
+ [443] dopban_sql_db                                     dop_ban.amxx    
+ [444] dopban_sql_host                                   dop_ban.amxx    
+ [445] dopban_index_watch       1                        dop_ban.amxx    
+ [446] dopban_antiprot          2                        dop_ban.amxx    
+ [447] dopban_oldversion        1                        dop_ban.amxx    
+ [448] dopban_dyn_weighttype    0                        dop_ban.amxx    
+ [449] dopban_dyn_delete_old    0                        dop_ban.amxx    
+ [450] amx_mode                 1                        admin.amxx      
+ [451] amx_password_field       _pw                      admin.amxx      
+ [452] amx_default_access       z                        admin.amxx
